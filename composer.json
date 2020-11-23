@@ -1,0 +1,21 @@
+{
+    "name": "sidnei/slim",
+    "authors": [
+        {
+            "name": "sidnei monteiro",
+            "email": "sialkas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+           "app\\": "app" 
+        },
+        "files":[
+            "app/functions/helpers.php"
+        ]
+    },
+    "require": {
+        "slim/slim": "3.9",
+        "twig/twig": "2.4"
+    }
+}
